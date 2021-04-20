@@ -64,6 +64,7 @@ button{
     background-color:#47adf1;
     color: white;
     transition-duration: 0.4s;
+    border: 1px solid #47adf1;
 }
 
 .white-b{
