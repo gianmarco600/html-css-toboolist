@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: ##f6f8f9;
+    background-color: #f6f8f9;
 }
 
 /* header */
@@ -28,4 +28,55 @@ header{
 
 h1{
     display: inline-block;
+}
+
+/* main */
+main{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.actions{
+    background-color: white;
+    height: 70px;
+    margin-top: 50px;
+    text-align: left;
+    border-radius: 7px 7px 0 0;
+    line-height: 70px;
+    padding-left: 70px;
+}
+
+button{
+    border-style: none;
+    border-radius: 5px;
+    height: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor:pointer
+    
+}
+
+.blue-b{
+    background-color:#47adf1;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.blue-b:hover{
+    background-color: white;
+    border: 1px solid #47adf1;
+    color:#47adf1;
+}
+
+.white-b{
+    background-color: white;
+    color: lightgray;
+    border: 1px solid lightgray;
+    transition-duration: 0.4s;
+}
+
+.white-b:hover{
+    background-color: #8dcd62;
+    border: 1px solid #8dcd62;
+    color:white;
 }
