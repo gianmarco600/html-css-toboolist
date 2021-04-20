@@ -26,8 +26,12 @@ header{
     font-size: 40px;
 }
 
-h1{
+h1 , h2{
     display: inline-block;
+}
+
+h2{
+    margin-bottom: 10px;
 }
 
 /* main */
@@ -62,12 +66,6 @@ button{
     transition-duration: 0.4s;
 }
 
-.blue-b:hover{
-    background-color: white;
-    border: 1px solid #47adf1;
-    color:#47adf1;
-}
-
 .white-b{
     background-color: white;
     color: lightgray;
@@ -75,8 +73,72 @@ button{
     transition-duration: 0.4s;
 }
 
+/* animazioni */
+.blue-b:hover{
+    background-color: white;
+    border: 1px solid #47adf1;
+    color:#47adf1;
+}
+
 .white-b:hover{
     background-color: #8dcd62;
     border: 1px solid #8dcd62;
     color:white;
+}
+
+/* fine animazioni */
+
+/* inizio liste */
+
+.container{
+    background-color: white;
+    margin-top: 3px;
+    height: 100vh;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+ul{
+    margin-bottom: 40px;
+    list-style-type: none;
+}
+
+li{
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.check::before{
+    content: "\2713";
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.cross::before{
+    content: "\2715";
+    margin-right: 10px;
+    margin-left: 3.5px;
+
+
+}
+
+.round{
+
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+}
+
+.red{
+    border: 1px solid red;
+    color: red;
+}
+
+.green{
+    border: 1px solid #65c0a9;
+    color: #65c0a9;
 }
