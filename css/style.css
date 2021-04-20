@@ -1,8 +1,31 @@
+/* global */
+
 *{
     box-sizing: border-box;
     margin: 0;    
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
     background-color: ##f6f8f9;
+}
+
+/* header */
+
+header{
+    background-color: white;
+    padding: 15px 0 10px 30px;
+}
+
+#logo{
+    line-height: 50px;
+    vertical-align: bottom;
+}
+
+.titolo{
+    font-size: 40px;
+}
+
+h1{
+    display: inline-block;
 }
