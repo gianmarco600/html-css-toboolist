@@ -93,10 +93,13 @@ button{
 .container{
     background-color: white;
     margin-top: 3px;
-    height: 100vh;
+    
     width: 100%;
     padding-left: 30px;
     padding-top: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 50px;
 }
 
 ul{
@@ -107,20 +110,20 @@ ul{
 li{
   font-weight: 600;
   margin-bottom: 20px;
+  
 }
 
 .check::before{
     content: "\2713";
     margin-right: 10px;
     margin-left: 5px;
+    margin-bottom: 3.5px;
 }
 
 .cross::before{
     content: "\2715";
     margin-right: 10px;
     margin-left: 3.5px;
-
-
 }
 
 .round{
@@ -131,14 +134,55 @@ li{
     text-align: center;
     padding: 0;
     display: inline-block;
+    line-height: 22px;
+    
 }
 
-.red{
+.r-border{
     border: 1px solid red;
     color: red;
 }
 
-.green{
+.g-border{
     border: 1px solid #65c0a9;
     color: #65c0a9;
+}
+
+.label{
+    height: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 10px 5px;
+    line-height:23px ;
+    vertical-align: baseline;
+    margin-left: 30px;
+}
+
+/* tipi di label */
+
+.cyan{
+    background-color: #45abea;
+}
+
+.violet{
+    background-color: #9c72e4;
+}
+
+.green{
+    background-color:#64c0a9 ;
+}
+
+.orange{
+    background-color:#f29e33 ;
+}
+
+.magenta{
+    background-color:#d863a1 ;
+}
+
+.yellgreen{
+    background-color:#b0c926 ;
 }
